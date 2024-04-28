@@ -1,0 +1,55 @@
+/* style.css */
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+header, nav, main, footer {
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Sesuaikan warna latar dan tulisan sesuai preferensi Anda */
+body {
+    background-color: #f8f8f8;
+    color: #121213;
+}
+
+header {
+    background-color: #a7a7a7;
+    color: #fff;
+}
+
+nav {
+    background-color: #eee;
+}
+
+main {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #7aafff;
+    color: #fff;
+}
